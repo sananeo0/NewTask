@@ -12,21 +12,13 @@
             catch (FormatException)
             {
                a = 0;
-                return false;
-                
-            }
-                
+                return false;                
+            }               
         }
         static void Main(string[] args)
         {
-            CustomTryParse("aggg", out int a);
-           
-             Console.WriteLine(a);
-           
-          
-
-
-
+            CustomTryParse("10", out int a);         
+            Console.WriteLine(a);
         }
     }
 }
