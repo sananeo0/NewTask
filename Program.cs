@@ -11,7 +11,7 @@
             }
             catch (FormatException)
             {
-                a = 0;
+               a = 0;
                 return false;
                 
             }
@@ -19,14 +19,11 @@
         }
         static void Main(string[] args)
         {
-            if( CustomTryParse("19", out int a))
-            {
-                Console.WriteLine(a);
-            }
-            else
-            {
-                Console.WriteLine("Failed");
-            }
+            CustomTryParse("aggg", out int a);
+           
+             Console.WriteLine(a);
+           
+          
 
 
 
